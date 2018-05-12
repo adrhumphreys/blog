@@ -1,0 +1,60 @@
+.cave {
+	background-color: #333;
+	border-radius: 6px;
+	color: white;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+	padding: 15px;
+
+	p {
+		font-size: 16px;
+		margin-bottom: 0;
+		line-height: 0.9;
+	}
+}
+
+.cave-button {
+	background-color: #333;
+	border: 0;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 12px;
+	margin-bottom: 8px;
+}
+
+$pixel-size: 8px;
+
+.cave-tiles {
+	background-color: #1f1f1f;
+	display: flex;
+	flex-wrap: wrap;
+
+	.cave-row {
+		display: flex;
+	}
+
+	.wall,
+	.not-wall {
+		height: $pixel-size;
+		width: $pixel-size;
+	}
+
+	.wall {
+		background-color: #402905;
+
+		&:nth-of-type(5n) {
+			background-color: lighten(#402905, 2%);
+		}
+
+		&:nth-of-type(7n) {
+			background-color: lighten(#402905, 5%);
+		}
+
+		&:nth-of-type(15n) {
+			background-color: lighten(#402905, 10%);
+		}
+	}
+
+}

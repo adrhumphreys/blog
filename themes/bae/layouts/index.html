@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <main role="main">
+
+	  <section>
+
+        {{ range first (default 10) (where .Data.Pages "Type" "post") }}
+        <article>
+          {{ .Render "list-item-expanded" }}
+        </article>
+        {{ end }}
+
+      </section>
+
+    </main>
+{{ end }}

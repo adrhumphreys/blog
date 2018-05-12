@@ -1,0 +1,9 @@
+baseURL = "https://paw.nz/"
+languageCode = "en-us"
+title = "Paw"
+theme = "bae"
+
+[params]
+	Tagline = "A place for my meandering"
+	githubusername = "adrhumphreys"
+	authorname = "Adrian Humphreys"

@@ -1,0 +1,15 @@
+<footer class="site-footer">
+	<nav class="site-nav">
+		<a href="{{ .Site.BaseURL }}">Home</a>
+
+		{{ if isset .Site.Params "twitterusername" }}
+		<a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a>
+		{{- end }}
+
+		{{ if isset .Site.Params "githubusername" }}
+		<a href="http://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a>
+		{{- end }}
+
+	</nav>
+  	<span class="owner">1990's - {{ .Site.Params.AuthorName }}</span>
+</footer>

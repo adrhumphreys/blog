@@ -1,0 +1,9 @@
+{
+  "name": "Paw",
+  "short_name": "Paw",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f5f0",
+  "description": "A place for my meandering",
+  ​​"orientation": "portrait-primary"
+}

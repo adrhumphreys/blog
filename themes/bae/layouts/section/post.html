@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main aria-role="main">
+	<article>
+        {{ range (where .Data.Pages "Type" "post").GroupByDate "2006/01" -}}
+        <section>
+          <h2>{{ .Key }}</h2>
+
+          <ol>
+            {{ range .Pages -}}
+            <li>
+              {{ .Render "list-item" }}
+            </li>
+            {{ end }}
+          </ol>
+        </section>
+        {{ end }}
+    </article>
+</main>
+{{ end }}

@@ -1,10 +1,12 @@
 ---
-date: 2017-08-06T10:30:08-04:00
-description: "Megamenu"
-tags: ["dev", "life"]
-title: "Feeling good"
----
+date: 2017-08-06 14:30:08 +0000
+description: I made something and it was neat
+tags:
+- dev
+- life
+title: Feeling good
 
+---
 Recently I've been reading a book called [Feeling Good](https://www.amazon.com/Feeling-Good-New-Mood-Therapy/dp/0380810336) which is about cognitive behaviour therapy, it's one of the books that popularized it. It's really interesting and I'm learning a lot. Some of which I figured I would share on here along with the Burns Depression Checklist which is a tool to measure how depressed you are.
 
 <!--more-->
